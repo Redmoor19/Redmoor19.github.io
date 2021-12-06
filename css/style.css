@@ -1,0 +1,214 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: #212121;
+    height: 50px;
+}
+
+.menu {
+    list-style: none;
+    padding: 13px 70px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu_link:hover{
+    text-decoration: underline;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 40px;
+}
+
+#last_item {
+    border: none;
+}
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+.subheader_logo_text {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.contact_header {
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: right;
+}
+
+.contact_number {
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: right;
+    text-decoration: none;
+    line-height: 12px;
+    margin-top: 8px;
+}
+
+.contact_number:hover {
+    color: black;
+}
+
+.subheader_btn {
+    margin-top: 16px;
+    width: 178px;
+    height: 52px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+
+.promo {
+    max-height: 799px;
+    background: url('../img/main_background.png') center center/cover no-repeat;
+    text-align: center;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.promo .promo_subheader {
+    margin-top: 22px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff; 
+    margin-bottom: 0;
+}
+
+.promo .promo_text {
+    margin-top: 23px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.promo .promo_btn {
+    margin-top: 115px;
+    width: 265px;
+    height: 69px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0,0,0,0.11);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+
+.benefits .benefits_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.benefits_circle {
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits {
+    padding: 71px 0 65px 0;
+}
+
+.benefits .benefits_aegis {
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.benefits .benefits_header {
+    margin-top: 38px;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+}
+
+.benefits .benefits_descr {
+    width: 341px;
+    margin-left: 26px;
+}
+
+.benefits .benefits_subtitle {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #1eacc7;
+}
+
+.benefits .benefits_text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #202020;
+}
